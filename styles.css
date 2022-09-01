@@ -1,10 +1,24 @@
 body{
     background-color: #ABABAB;
     color: #A55E66;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
 }
 
 h2{
     font-size: 1rem;
+}
+
+h2{
+    font-size: 0.9rem;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
 }
 
 .container-main{
@@ -13,7 +27,7 @@ h2{
     margin: auto;
     margin-top: 2rem;
     background-color: red;
-    width: 50%;
+    width: 40%;
     background-color: #E4E4E4;
 }
 
@@ -25,15 +39,79 @@ h2{
 
 .main{
     margin: 0 3rem;
+    padding: 1rem 0;
 }
 
-.mainflex{
+.container1{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding-top: 0.5rem;
 }
 
-.box1 .box2{
+.container2, .container3, .container4, .container5, .container6{
+    padding-top: 1rem;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
 }
+
+.container7{
+    padding-top: 4rem;
+}
+
+.boxrating{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.inputs{
+    width: 60%;
+}
+
+.inputs2{
+    width: 40%;
+}
+
+.btn {
+    background: #464647;
+    background-image: -webkit-linear-gradient(top, #464647, #808080);
+    background-image: -moz-linear-gradient(top, #464647, #808080);
+    background-image: -ms-linear-gradient(top, #464647, #808080);
+    background-image: -o-linear-gradient(top, #464647, #808080);
+    background-image: linear-gradient(to bottom, #464647, #808080);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 2% 10%;
+    border: 0;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+  
+.btn:hover {
+    background: #6e1026;
+    background-image: -webkit-linear-gradient(top, #6e1026, #6e141a);
+    background-image: -moz-linear-gradient(top, #6e1026, #6e141a);
+    background-image: -ms-linear-gradient(top, #6e1026, #6e141a);
+    background-image: -o-linear-gradient(top, #6e1026, #6e141a);
+    background-image: linear-gradient(to bottom, #6e1026, #6e141a);
+    text-decoration: none;
+    border: 0;
+}
+
+.productnamebox{
+    width: 100%;
+}
+
+#datetag{
+    margin: 0 0;
+    color: grey;
+    font-size: 0.6rem;
+}
+
+#date{
+    width: 90%;
+  }
