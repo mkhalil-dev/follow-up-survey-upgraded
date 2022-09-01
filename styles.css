@@ -1,0 +1,39 @@
+body{
+    background-color: #ABABAB;
+    color: #A55E66;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+.container-main{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: red;
+    width: 50%;
+    background-color: #E4E4E4;
+}
+
+.header{
+    background-color: white; 
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.main{
+    margin: 0 3rem;
+}
+
+.mainflex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.box1 .box2{
+    display: flex;
+    flex-flow: column nowrap;
+}
